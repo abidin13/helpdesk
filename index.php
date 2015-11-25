@@ -2,12 +2,12 @@
 	require_once 'core/init.php';
 
 	//var_dump(Config::get('mysql/host'));
-	$user = DB::getInstance()->query("SELECT * FROM users where username=?", array('alex'));
+	$user = DB::getInstance()->get('users', array('username','=','alex'));
 
-	if ($user->error()) {
+	if (!$user->count()) {
 		echo "no User";
 	} else {
-		echo "OK";
+		echo $user->first()->username;
 	}
 	
 

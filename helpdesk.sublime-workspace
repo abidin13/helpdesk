@@ -158,6 +158,7 @@
 	],
 	"file_history":
 	[
+		"//workfolders.grahaplas.com/Users Data$/febriyant.abidin/My Documents/2015/query/cek/update_mail_status_user.sql",
 		"/D/xampp/htdocs/helpdesk/functions/sanitize.php",
 		"/C/Users/febriyant.abidin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/D/xampp/htdocs/helpdesk/index.php",
@@ -227,7 +228,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -256,7 +257,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -272,8 +273,8 @@
 						"selection":
 						[
 							[
-								704,
-								704
+								1162,
+								1162
 							]
 						],
 						"settings":
@@ -283,10 +284,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 300.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -315,7 +316,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
