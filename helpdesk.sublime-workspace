@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
 				"ne",
 				"new 	Language Construct"
 			],
@@ -48,10 +52,6 @@
 				"session_start()	session Function"
 			],
 			[
-				"if",
-				"if	if …"
-			],
-			[
 				"inc",
 				"include_once	Language Construct"
 			]
@@ -68,26 +68,18 @@
 			}
 		},
 		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 102,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/sanitize.php",
-			"settings":
-			{
-				"buffer_size": 89,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "classes/DB.php",
 			"settings":
 			{
-				"buffer_size": 621,
+				"buffer_size": 1162,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 243,
 				"line_ending": "Windows"
 			}
 		},
@@ -108,15 +100,23 @@
 	"command_palette":
 	{
 		"height": 398.0,
-		"last_filter": "in",
+		"last_filter": "ins",
 		"selected_items":
 		[
 			[
-				"in",
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
-				"ins",
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
 				"Package Control: Install Package"
 			],
 			[
@@ -130,13 +130,9 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 406.0
+		"width": 534.0
 	},
 	"console":
 	{
@@ -158,19 +154,17 @@
 	"expanded_folders":
 	[
 		"/D/xampp/htdocs/helpdesk",
-		"/D/xampp/htdocs/helpdesk/classes",
-		"/D/xampp/htdocs/helpdesk/core",
-		"/D/xampp/htdocs/helpdesk/functions",
-		"/D/xampp/htdocs/helpdesk/includes/error"
+		"/D/xampp/htdocs/helpdesk/core"
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/helpdesk/functions/sanitize.php",
 		"/C/Users/febriyant.abidin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/xampp/htdocs/helpdesk/index.php",
+		"/C/Users/febriyant.abidin/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/D/xampp/htdocs/helpdesk/core/init.php",
 		"/D/xampp/htdocs/helpdesk/includes/error/404.php",
-		"/D/xampp/htdocs/helpdesk/functions/sanitize.php",
 		"/D/xampp/htdocs/helpdesk/classes/DB.php",
-		"/D/xampp/htdocs/helpdesk/index.php",
 		"/D/xampp/htdocs/helpdesk/login.php",
 		"/D/xampp/htdocs/helpdesk/logout.php",
 		"/D/xampp/htdocs/helpdesk/changepassword.php",
@@ -233,7 +227,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -249,40 +243,72 @@
 						"selection":
 						[
 							[
-								428,
-								428
+								480,
+								480
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.php",
+					"file": "classes/DB.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 102,
+						"buffer_size": 1162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								704,
+								704
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -293,63 +319,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "functions/sanitize.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 89,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								89,
-								89
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "classes/DB.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 621,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								271,
-								271
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 312.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "classes/Config.php",
 					"semi_transient": false,
 					"settings":
@@ -361,13 +331,14 @@
 						"selection":
 						[
 							[
-								320,
-								320
+								231,
+								231
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
