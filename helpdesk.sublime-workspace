@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"operat",
+				"operators"
+			],
+			[
 				"if",
-				"ifelse	if … else …"
+				"if	if …"
 			],
 			[
 				"ne",
@@ -60,6 +64,14 @@
 	"buffers":
 	[
 		{
+			"file": "classes/DB.php",
+			"settings":
+			{
+				"buffer_size": 2041,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "core/init.php",
 			"settings":
 			{
@@ -68,18 +80,10 @@
 			}
 		},
 		{
-			"file": "classes/DB.php",
-			"settings":
-			{
-				"buffer_size": 1162,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 243,
+				"buffer_size": 246,
 				"line_ending": "Windows"
 			}
 		},
@@ -228,11 +232,41 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "classes/DB.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1841,
+								1841
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 869.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "core/init.php",
 					"semi_transient": false,
 					"settings":
@@ -253,41 +287,11 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "classes/DB.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1162,
-								1162
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -296,15 +300,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 243,
+						"buffer_size": 246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								210
+								236,
+								236
 							]
 						],
 						"settings":
