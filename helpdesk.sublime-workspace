@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"valid",
+				"validation"
+			],
+			[
+				"rule",
+				"rule_value"
+			],
+			[
 				"if",
-				"ifelse	if … else …"
+				"if	if …"
+			],
+			[
+				"pa",
+				"password_again"
 			],
 			[
 				"require",
@@ -87,7 +99,7 @@
 			"file": "register.php",
 			"settings":
 			{
-				"buffer_size": 884,
+				"buffer_size": 1571,
 				"line_ending": "Windows"
 			}
 		},
@@ -100,10 +112,10 @@
 			}
 		},
 		{
-			"file": "classes/Validation.php",
+			"file": "classes/Validate.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1603,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +123,7 @@
 			"file": "classes/Input.php",
 			"settings":
 			{
-				"buffer_size": 499,
+				"buffer_size": 496,
 				"line_ending": "Windows"
 			}
 		},
@@ -242,6 +254,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">",
 			"placeholder",
 			"signin",
 			"theme"
@@ -271,21 +284,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 884,
+						"buffer_size": 1571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								660,
+								660
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -320,34 +334,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 2,
-					"file": "classes/Validation.php",
+					"file": "classes/Validate.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1603,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1371,
+								1371
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -363,27 +378,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 499,
+						"buffer_size": 496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								54,
-								54
+								18,
+								18
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -399,18 +415,19 @@
 						"selection":
 						[
 							[
-								69,
-								69
+								1823,
+								1823
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
+							"history_list_is_closing": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
